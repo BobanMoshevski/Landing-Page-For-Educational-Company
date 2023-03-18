@@ -1,0 +1,472 @@
+/* boi: #FFFFFF bela boja, #F8F8F8 epten svetlo siva, #D8D8D8 svetlo siva, #9B9B9B siva, #606060 gri, #0A0A0A crna i #FAAD01 zolta */
+
+/* Start custom style */
+/* Start custom text style */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  margin: 32px 0;
+  font-size: 40px;
+  font-weight: 800;
+  color: #0a0a0a;
+}
+
+h2 {
+  margin: 16px 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0a0a0a;
+}
+
+h3 {
+  margin: 8px 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #0a0a0a;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #0a0a0a;
+}
+
+.card-heading {
+  font-size: 20px;
+  color: #0a0a0a;
+}
+
+.card-text-color {
+  font-size: 16px;
+  color: #606060;
+}
+/* End custom text style */
+
+/* Start custom font color style */
+.grey-font-color {
+  color: #9b9b9b;
+}
+
+.black-font-color {
+  color: #0a0a0a;
+}
+
+.metallic-silver-font-colot {
+  color: #606060;
+}
+/* End custom font color style */
+
+/* Start custom bg color style */
+
+.yellow-bg-color {
+  background-color: #faad01;
+}
+
+.black-bg-color {
+  background-color: #0a0a0a;
+}
+/* End custom bg color style */
+
+/* Start custom button style */
+.custom-btn {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: white(232.45deg, #014497 17.71%, #008183 133, 24%);
+  border: 2px solid #faad01;
+  padding: 0 16px;
+  height: 30px;
+}
+
+.custom-btn:hover {
+  background-color: #faad01;
+  color: #ffffff;
+}
+/* End custom button style */
+
+/* Start desktop hide element */
+.desktop-hide {
+  display: none;
+}
+/* End desktop hide element */
+
+/* Start headings */
+.heading-padding {
+  padding: 210px 0 105px 0;
+}
+
+.center-underline {
+  width: 100px;
+  height: 3px;
+  background-color: #faad01;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+/* End headings */
+
+/* Start custom bg color style */
+.custom-black-bg-color {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* End custom bg color style */
+
+/* Start shadow hover style */
+.shadow-hover:hover {
+  box-shadow: 0px 2px 20px 0 #9b9b9b;
+  border-radius: 3px;
+  cursor: pointer;
+}
+/* End shadow hover style */
+
+/* Start modal style */
+.modal-padding {
+  padding: 210px 0;
+}
+/* End modal style */
+/* End custom style */
+
+/* Start hero style */
+.hero {
+  background-image: url("../img/Pictures/Backgrounds/Hero\ image\ Background.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 280px;
+}
+
+.play-icon-color {
+  color: #ffffff;
+}
+
+.play-icon-color:hover {
+  color: #faad01;
+}
+/* End hero style */
+
+/* Start speakres style */
+.speakers-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 360px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.speaker1 {
+  background-image: url("../img/Pictures/Lecturers/Biljana-Vidojevikj.png");
+}
+
+.speaker2 {
+  background-image: url("../img/Pictures/Lecturers/Димитар\ 2.jpg");
+}
+
+.speaker3 {
+  background-image: url("../img/Pictures/Lecturers/Miroslav.jpg");
+}
+
+.speaker4 {
+  background-image: url("../img/Pictures/Lecturers/alexander-stoicoff-adivius.png");
+}
+
+.speaker5 {
+  background-image: url("../img/Pictures/Lecturers/Filip\ DImitrov.JPG");
+}
+
+.speaker6 {
+  background-image: url("../img/Pictures/Lecturers/MAJA.jpg");
+}
+
+.speaker-text {
+  position: relative;
+  top: 279px;
+}
+
+.hover:hover .speaker-text {
+  top: 233px;
+}
+
+.media-icons {
+  display: none;
+}
+
+.hover:hover .speaker-text .media-icons {
+  display: block;
+}
+/* End speakres style */
+
+/* Strat registration style */
+.registrations-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.modal-registration-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+/* End registration style */
+
+/* Start venue background images style */
+.venue-bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+}
+
+.venue-img1 {
+  background-image: url("../img/Pictures/Backgrounds/Map.png");
+}
+
+.venue-img2 {
+  background-image: url("../img/Pictures/Backgrounds/Venue\ information\ background.png");
+}
+
+.venue-img3 {
+  background-image: url("../img/Pictures/Events-pictures-for-carousel/trajko-dzikov.jpg");
+}
+
+.venue-img4 {
+  background-image: url("../img/Pictures/Events-pictures-for-carousel/marketing-strategy.jpg");
+}
+
+.venue-img5 {
+  background-image: url("../img/Pictures/Events-pictures-for-carousel/pr-kosta-petrov.jpg");
+}
+
+.venue-img6 {
+  background-image: url("../img/Pictures/Events-pictures-for-carousel/marketing-macedonia.jpg");
+}
+/* End venue background images style */
+
+/* Start carousel images style */
+.gallery-img {
+  width: 100%;
+  height: 500px;
+}
+
+.left-arrow {
+  top: auto;
+  bottom: -60px;
+  left: 42%;
+  width: 5%;
+  opacity: 1;
+}
+
+.right-arrow {
+  top: auto;
+  bottom: -60px;
+  right: 42%;
+  width: 5%;
+  opacity: 1;
+}
+/* End carousel images style */
+
+/* Start sponsors style */
+.company-logo {
+  padding-left: 80px;
+}
+/* End sponsors style */
+
+/* Start accordion style */
+.card-header .accicon {
+  float: right;
+  font-size: 20px;
+  width: 1.2em;
+}
+
+.card-header {
+  cursor: pointer;
+  border-bottom: none;
+}
+
+.accordion-title {
+  display: inline-block;
+  width: 90%;
+}
+
+.card-header:not(.collapsed) .rotate-icon {
+  transform: rotate(180deg);
+}
+/* End accordion style */
+
+/* Start hero newsletter style */
+.newsletter-img {
+  background-image: url("../img/Pictures/Backgrounds/Newsletter\ background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin: 210px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* End hero newsletter style */
+
+/* Start contact */
+.contact-border {
+  border-right: #0a0a0a 1px solid;
+}
+/* End contact */
+
+/* Start footer style */
+/* Start up icon */
+.position {
+  position: relative;
+}
+
+.icon-position {
+  position: absolute;
+  top: -100px;
+  right: 48%;
+}
+/* End up icon */
+
+/* Strat creative hub */
+.fotter-img-logo {
+  margin: 24px 0;
+}
+/* End creative hub */
+
+/* Start copyright */
+.footer-text {
+  text-align: center;
+}
+/* End copyright */
+/* End footer style */
+
+/* Start media queries */
+/* Start tablet */
+@media screen and (max-width: 769px) {
+  /* Start hide and show content */
+  .tablet-show {
+    display: flex;
+  }
+  /* End hide and show content */
+
+  /* Start up icon */
+  .icon-position {
+    right: 44%;
+  }
+  /* End up icon */
+}
+/* End tablet */
+
+/* Start mobile */
+@media screen and (max-width: 426px) {
+  /* Start hide and show content */
+  .mobile-hide {
+    display: none;
+  }
+
+  .mobile-show {
+    display: flex;
+  }
+  /* End hide and show content */
+
+  /* Start custom text style */
+  h1 {
+    margin: 24px 0;
+    font-size: 24px;
+  }
+
+  h2 {
+    margin: 16px 0;
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .card-heading {
+    font-size: 20px;
+  }
+
+  .card-text-color {
+    font-size: 14px;
+  }
+  /* End custom text style */
+
+  /* Start headings style */
+  .heading-padding {
+    padding: 90px 0 45px 0;
+  }
+  /* End headings style */
+
+  /* Start speakers style */
+  .speaker-text {
+    top: 300px;
+  }
+
+  .hover:hover .speaker-text {
+    top: 253px;
+  }
+  /* End speakers style */
+
+  /* Start carousel image style */
+  .gallery-img {
+    height: 400px;
+  }
+
+  .left-arrow {
+    left: 38%;
+  }
+
+  .right-arrow {
+    right: 38%;
+  }
+  /* End carousel image style */
+
+  /* Start sponsors style */
+  .company-logo {
+    padding: 0;
+  }
+  /* End sponsors */
+
+  /* Start contact */
+  .contact-border {
+    width: 90%;
+    margin: 0 auto;
+    border-right: none;
+    border-bottom: #0a0a0a 1px solid;
+  }
+  /* End contact */
+
+  /* Start footer style */
+  /* Start up icon */
+  .icon-position {
+    right: 35%;
+  }
+  /* End up icon */
+
+  .footer-text {
+    text-align: left;
+  }
+  /* End footer style */
+}
+/* End mobile */
+/* End media queries */
