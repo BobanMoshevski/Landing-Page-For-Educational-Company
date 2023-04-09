@@ -1,4 +1,4 @@
-<h1>Landing page for education company</h1>
+<h1>Landing page for educationl company</h1>
 
 <h2>Description</h2>
 <p>Development of a landing page, which is designed by a UX/UI designer. The landing page is about events. The events type is meet-ups which are 
